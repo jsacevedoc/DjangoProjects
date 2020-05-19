@@ -78,10 +78,10 @@ WSGI_APPLICATION = 'proyectointegrador1.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'temphum',
-        'USER': 'root',
+        'NAME': 'cultivo2',
+        'USER': 'acevedo@cultivo2',
         'PASSWORD': 'carechimba:Q1',
-        'HOST': 'localhost',
+        'HOST': 'cultivo2.mysql.database.azure.com',
         'PORT': '3306'
     }
 }
