@@ -20,7 +20,7 @@ from rest_framework import routers
 from temphum import views
 
 router = routers.DefaultRouter()
-router.register(r'temphum', views.TemphumViewSet)
+#router.register(r'temphum', views.TemphumViewSet)
 router.register(r'cultivo', views.CultivoViewSet)
 
 urlpatterns = [
